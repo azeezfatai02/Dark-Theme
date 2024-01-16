@@ -1,0 +1,353 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    /* display: block; */
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    color:#757575!important;
+    line-height: 1.5;
+    
+}
+header {
+  display: flex;
+}
+.div1 {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.homeicon{
+    height: 60px;
+    width: 60px;
+    color: antiquewhite;
+    margin: 10px;
+}
+.rep1{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.rep2{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.rep3{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.rep4{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+}
+/*.fa-duotone fa-house-chimney fa-2xl{
+  align-items: center;
+  padding: 100px;
+}
+.fa-solid fa-user fa-2xl{
+  align-items: center;
+  padding: 100px;
+}
+.fa-regular fa-eye{
+  align-items: center;
+  padding: 100px;
+}
+.fa-solid fa-envelope fa-2xl{
+  align-items: center;
+  padding: 100px;
+}*/
+.avatar{
+    height: 120px;
+    width: 120px;
+    
+}
+/*header{
+  display: flex;
+}*/
+.container{
+  display: flex;
+}
+.alone{
+    /* padding: 100px  154px!important; */
+    width: 85%;
+    padding: 40px;
+    width: 85%;
+    padding: 40px;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+
+.john{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    font-size: 64px;
+}
+
+.doe{
+    display: flex;
+    justify-content: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a{
+    color:rgba(255, 255, 255, 0.863);
+    text-decoration: none;
+}
+
+.paper{
+    /* position: fixed; */
+    background-color: rgb(27, 27, 28);
+}
+:hover{
+  .rep1{
+    background: #000;
+  }
+  
+}
+
+hr{
+    width: 200px;
+    margin: 20px 0px;
+  }
+  .bend{
+      border: #fff;
+      max-width: 1000px;
+      background-color: #fff !important;
+      border-width: 50px;
+      position: relative;
+      height: 30px;
+      top: 0;
+      color:  #616161!important;
+    }
+    .div2 {
+      position: relative;
+    }
+    .bend2{
+      height: 30px;
+      background-color: #616161 !important;
+      position: absolute;
+      top: 0px;
+      border: #fff;
+      border-width: 50px;
+      width: 950px;
+    }
+.fbend{
+    border: #fff;
+    max-width: 1000px;
+    background-color: #fff !important;
+    border-width: 50px;
+    position: relative;
+    height: 30px;
+    top: 0;
+    color:  #616161!important;
+}
+.fbend2{
+    height: 30px;
+    background-color: #616161 !important;
+    position: absolute;
+    top: 0px;
+    border: #fff;
+    border-width: 50px;
+    width: 900px;
+
+}
+.sbend{
+    border: #fff;
+    max-width: 1000px;
+    background-color: #fff !important;
+    border-width: 50px;
+    position: relative;
+    height: 30px;
+    top: 0;
+    color:  #616161!important;
+}
+.sbend2{
+     height: 30px;
+    background-color: #616161 !important;
+    position: absolute;
+    top: 0px;
+    border: #fff;
+    border-width: 50px;
+    width: 850px;
+} 
+.div {
+    display: flex;
+}
+.skill{
+    padding:  50px 0px;
+}
+.mock{
+    border: 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+    color: black;
+    height: 100px;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.basic{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 1px;
+    
+    padding: 10px;  
+    width: 600px; 
+}
+.basic div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 10px;
+    
+  }
+  .penth{
+    display: flex;
+    gap: 20px;
+  }
+  .bull{
+    background-color:#616161!important ;
+  }
+  .ride{
+    width: 100px;
+    height: 30px;
+  }
+  .fall{
+    display: flex;
+    margin-top: 20px;
+    height: 100px;
+    font-size: 12px;
+  }
+  .bottle{
+    border: 50px;
+    border-radius: 1000px;
+  }
+  .bill{
+    margin-top: 80px;
+  }
+  .rude{
+    display: flex;
+    
+  } 
+  .rude1 img {
+    width: 100%;
+  }
+  .rude2 img {
+    width: 100%;
+    height: 497px;
+  }
+  /* .rude1{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 10px;
+  } */
+
+/* 
+.rude2{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  row-gap: 10px;
+}
+
+  .item3{
+     width: 500px;
+  }
+  .item1{
+    width: 500px;
+  }
+  .item5{
+    width: 500px;
+  }
+  .item4{
+    width: 500px;
+  }
+  .item2{
+    width: 500px;
+  }
+  .item6{
+    width: 500px;
+   
+  }
+  .item7{
+    width: 500px;
+  } */
+  .herb{
+    margin-top: 30px;
+  }
+  .subherb{
+    display: flex;
+    margin: 10px;
+  }
+  .herber{
+    margin-left: 15px;
+  }
+  .energy{
+    margin-top: 80px;
+  }
+  input{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .plane{
+    height: 50px;
+    margin-top: 10px;
+    
+  }
+  .plane1{
+    margin-right: 5px;
+  }
+.logo{
+  display: flex;
+  
+}
+i{
+  margin-left: 10px;
+}
+
+.foot{
+  margin-top: 100px;
+}
+
+@media (max-width:800px) {
+ .rude{
+  display: block;
+ }
+ .paper{
+  display: flex;
+  height: 10px;
+ }
+}
